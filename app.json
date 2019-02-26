@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/product/index",
+    "pages/me/index",
+    "pages/reserve/index",
+    "pages/select/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "haopin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#ef615d",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/house.png",
+        "selectedIconPath": "images/house-1.png"
+      },
+      {
+        "pagePath":  "pages/product/index",
+        "text": "商品",
+        "iconPath": "images/product.png",
+        "selectedIconPath": "images/product-1.png"
+      },
+      {
+        "pagePath":  "pages/select/index",
+        "text": "选款",
+        "iconPath": "images/heart.png",
+        "selectedIconPath": "images/heart-1.png"
+      },
+      {
+        "pagePath":  "pages/reserve/index",
+        "text": "预约",
+        "iconPath": "images/revert.png",
+        "selectedIconPath": "images/revert-1.png"
+      },
+      {
+        "pagePath":  "pages/me/index",
+        "text": "我的",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me-1.png"
+      }
+    ]
+  }
+}
